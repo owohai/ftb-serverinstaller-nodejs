@@ -148,6 +148,7 @@ function install() {
 
     // runs the forge installer (if any)
     child.on('exit', function() {
+        setTimeout(() => {
     if (entries.length === 0) {
         return logS(`${
             success(" SUCCESS ")
@@ -183,5 +184,6 @@ function install() {
       });
       */
     process.exit()
+    }, 10000);
 })
 }
