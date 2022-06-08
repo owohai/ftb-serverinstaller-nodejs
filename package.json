@@ -2,6 +2,8 @@
   "dependencies": {
     "child_process": "^1.0.2",
     "cli-color": "^2.0.2",
+    "fast-glob": "^3.2.11",
+    "fetch": "^1.1.0",
     "nodejs-file-downloader": "^4.9.3"
   }
 }
